@@ -17,7 +17,7 @@ It enables fast metadata discovery and operational inspection across your Fabric
 
 ## Files Overview
 
-### 911_GetAllTables.py
+### 1️⃣ 911_GetAllTables.py
 
 Scans all accessible workspaces and Lakehouses.
 Returns table metadata, including name, type, location, and format.
@@ -28,7 +28,7 @@ Useful for:
 	•	Storage path inspection
 	•	Governance checks
 
-### 911_GetDataPipelines.py
+### 2️⃣ 911_GetDataPipelines.py
 
 Enumerates Data Pipelines across workspaces.
 
@@ -37,7 +37,7 @@ Useful for:
 	•	Identifying orphan or unused pipelines
 	•	Operational troubleshooting
 
-### 911_GetNotebooks.py
+### 3️⃣ 911_GetNotebooks.py
 
 Retrieves notebook definitions and extracts code content.
 Creates a Spark view to allow SQL-based code search.
@@ -47,7 +47,7 @@ Useful for:
 	•	Detecting risky operations (overwrite, replaceWhere, hardcoded paths)
 	•	Investigating undocumented transformations
 
-### 911_GetUserRoles.py
+### 4️⃣ 911_GetUserRoles.py
 
 Extracts users and roles for every workspace.
 
