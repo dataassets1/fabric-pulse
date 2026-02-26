@@ -1,4 +1,4 @@
-# Fabric 911 – Emergency Investigation Toolkit for Microsoft Fabric
+# 🚨 Fabric 911 – Emergency Investigation Toolkit for Microsoft Fabric
 
 Fabric 911 is a lightweight emergency toolkit designed to quickly understand what is happening across Microsoft Fabric workspaces during incidents, audits, or governance reviews.
 
