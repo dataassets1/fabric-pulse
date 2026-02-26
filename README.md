@@ -4,7 +4,6 @@ Fabric 911 is a lightweight emergency toolkit designed to quickly understand wha
 
 When documentation is missing and something breaks, these scripts provide immediate visibility into tables, pipelines, notebooks, and workspace access.
 
-⸻
 ## Purpose
 
 This repository helps answer urgent questions such as:
@@ -15,22 +14,19 @@ This repository helps answer urgent questions such as:
 
 It enables fast metadata discovery and operational inspection across your Fabric environment.
 
-⸻
 
 ## Files Overview
 
 ### 911_GetAllTables.py
 
 Scans all accessible workspaces and Lakehouses.
-Returns table metadata including name, type, location, and format.
+Returns table metadata, including name, type, location, and format.
 
 Useful for:
 	•	Deployment validation
 	•	Schema audits
 	•	Storage path inspection
 	•	Governance checks
-
-⸻
 
 ### 911_GetDataPipelines.py
 
@@ -40,8 +36,6 @@ Useful for:
 	•	Dependency discovery
 	•	Identifying orphan or unused pipelines
 	•	Operational troubleshooting
-
-⸻
 
 ### 911_GetNotebooks.py
 
@@ -53,8 +47,6 @@ Useful for:
 	•	Detecting risky operations (overwrite, replaceWhere, hardcoded paths)
 	•	Investigating undocumented transformations
 
-⸻
-
 ### 911_GetUserRoles.py
 
 Extracts users and roles for every workspace.
@@ -65,15 +57,9 @@ Useful for:
 	•	Detecting excessive privileges
 	•	Governance validation
 
-⸻
-
 How to Use
 	1.	Run the scripts inside a Fabric Notebook.
 	2.	Each script creates a Spark temporary view.
 	3.	Query results using SQL for investigation and analysis.
-
-⸻
-
-⸻
 
 Fabric 911 is intended for fast, structured investigation of Microsoft Fabric environments, helping reduce time to detect and resolve operational issues.
