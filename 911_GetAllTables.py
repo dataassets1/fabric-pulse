@@ -5,6 +5,7 @@
 # - Which table has XYZ in the name (e.g. payments, sales, etc)
 # - How many tables we have
 # - How many duplicated tables we have
+# - It checks only the tables without schema
 
 import requests
 import pandas as pd
